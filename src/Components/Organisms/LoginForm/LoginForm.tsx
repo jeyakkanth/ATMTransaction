@@ -15,6 +15,7 @@ const LoginForm:React.FC = () => {
   const [isTrue , setIsTrue] = useState<boolean>();
 
   const handleLogin = async () => {
+    const amount = 0;
     try {
       const res = await fetch("http://localhost:8080/ATM_Transaction/login", {
         method: "POST",
