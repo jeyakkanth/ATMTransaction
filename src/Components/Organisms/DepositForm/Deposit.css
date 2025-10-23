@@ -1,0 +1,42 @@
+.deposit-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.deposit1 , .deposit2 {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    margin: 50px;
+    box-shadow: 0 20px 30px  rgba(0, 0, 0, 0.15);
+}
+
+.deposit1{
+    background-color: transparent;
+}
+
+.deposit2{
+    background-color: transparent;
+}
+
+
+.deposit1 .h2{
+    font-size: 40px;
+    text-decoration: underline ;
+    color: black;
+}
+
+.input-set{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.org-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(81, 73, 165);
+    padding: 10px 40px;
+    box-shadow: 0 2px 5px rgba( 0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 20px 30px  rgba(173, 124, 232, 0.15);
+}
+
+.Nav-logo , 
+.Nav-linkGroup {
+    display: flex;
+    align-items: center;
+}
